@@ -1,4 +1,4 @@
-from utils.cli import run
+from utils.cli import run  # استيراد دالة run من وحدة cli الموجودة في مجلد utils
 
-if __name__ == "__main__":
-    run()
+if __name__ == "__main__":  # التحقق مما إذا كان هذا الملف هو الملف الرئيسي المُنفَّذ (وليس مستوردًا)
+    run()  # استدعاء دالة run لبدء تشغيل واجهة سطر الأوامر
